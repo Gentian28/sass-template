@@ -9,7 +9,7 @@
 	}
 }
 
-@mixin imagegrid($qty, $margin) {
+@mixin grid($qty, $margin) {
 	width: ((100% - (($qty - 1) * $margin))/$qty);
 	&:nth-child(n) {
 		margin-right: $margin;
